@@ -18,9 +18,10 @@
 #include <time.h>
 
 int main(int argc, char **args) {
+    int i;
+
     srand(time(NULL));
 
-    int i;
     for (i=0; i<7; i++) 
       printf("%d \n", rand() % 39 + 1);
     
