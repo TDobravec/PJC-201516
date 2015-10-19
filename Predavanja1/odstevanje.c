@@ -1,3 +1,8 @@
+/*
+ * Prvi program za ogrevanje: izpis stevil od 10 do 0
+ * 
+ */
+
 #include <stdio.h>
 
 int main(int argc, char **args) {
