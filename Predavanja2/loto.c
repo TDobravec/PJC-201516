@@ -20,7 +20,7 @@
 int main(int argc, char **args) {
     srand(time(NULL));
 
-     int i;
+    int i;
     for (i=0; i<7; i++) 
       printf("%d \n", rand() % 39 + 1);
     
